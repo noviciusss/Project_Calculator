@@ -3,7 +3,7 @@ const numbers = document.querySelectorAll('#numbers');
 
 
 function calculate(value) {
-    const calculatedValue = eval(value || null);
+    try{const calculatedValue = eval(value || null);
     if (isNaN(calculatedValue)) {
         result.value = "Cannot divide by 0";
         setTimeout(() => {
@@ -11,6 +11,9 @@ function calculate(value) {
     }, 1300);
     } else {
         result.value = calculatedValue;
+    }
+    }catch(error){
+        alert("Error: Please try Again ")
     }
 }
 function showResult(givenValue){
