@@ -13,7 +13,7 @@ function calculate(value) {
         result.value = calculatedValue;
     }
     }catch(error){
-        alert("Error: Please try Again ")
+        alert("Error: Please try Again.")
     }
 }
 function showResult(givenValue){
@@ -89,3 +89,21 @@ function backSpace(value){
         result.value = resultInput.substring(0, result.value.length - 1);
     
 }
+
+    // function adjustFontSize() {
+    //     const maxLength = 9; 
+    //     const baseSize = 3.5; 
+    //     const minSize = 2; 
+    
+    //     if (result.value.length > maxLength) {
+    //         const newSize = Math.max(minSize, baseSize - (result.value.length - maxLength));
+    //         result.style.fontSize = `${newSize}rem`;
+    //     } else {
+            
+    //         result.style.fontSize = `${baseSize}rem`;
+    //     }
+    // }
+
+    
+    // result.addEventListener('input', adjustFontSize);
+    // adjustFontSize();
