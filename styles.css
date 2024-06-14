@@ -51,6 +51,12 @@ input {
     padding: 15px;
     margin: 3.1px;
 }
+input:hover{
+    background-color: #555;
+    color: #fff;
+}
+
+
 #equal {
     background-color: #ff9a00;
     color: white;
@@ -59,6 +65,9 @@ input {
     cursor: pointer;
     border: none;
     border-radius: 72%;}
+#equal:hover{
+    background-color: #ffab40;
+}
 .key{
     background-color: #a6a6a6;
 }
