@@ -71,3 +71,21 @@ input:hover{
 .key{
     background-color: #a6a6a6;
 }
+
+
+@media (max-width: 600px) {
+    #container {
+        width: 90%; 
+        margin: 0 auto; 
+        padding: 20px; 
+    }
+
+    #result input[type="text"] {
+        width: 100%; 
+        margin: 10px 0; 
+    }
+
+    .key {
+        font-size: 1.2rem; 
+    }
+}
